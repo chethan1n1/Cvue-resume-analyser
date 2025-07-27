@@ -102,14 +102,14 @@ const Upload = () => {
                 {/* Upload Form Box */}
                 <div className="w-full md:w-1/2 bg-white rounded-xl border border-gray-200 shadow-sm p-8">
                     <div className="page-heading pb-6">
-                        <h1>Smart feedback for your dream job</h1>
+                        <h1>Smarter Edits. Better Jobs.</h1>
                         {isProcessing ? (
                             <>
                                 <h2>{statusText}</h2>
                                 <img src="/images/resume-scan.gif" className="w-full" />
                             </>
                         ) : (
-                            <h2>Drop your resume for an ATS score and improvement tips</h2>
+                            <h2>Drop your resume and let AI help you shine</h2>
                         )}
                     </div>
                     {!isProcessing && (
