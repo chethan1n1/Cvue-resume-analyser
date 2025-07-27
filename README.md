@@ -1,6 +1,5 @@
-# CVue – AI Resume Analyzer
+# CVue – AI Resume Analyzer📄
 
-![CVue Banner](public/readme/hero.webp)
 
 ## Overview
 CVue is a Swiss-style, minimalistic AI-powered resume analyzer built with React, Vite, Tailwind CSS, and Puter.js. It provides smart feedback, ATS scoring, and actionable tips to help you improve your resume and job applications.
