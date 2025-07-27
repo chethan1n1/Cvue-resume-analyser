@@ -1,99 +1,64 @@
-# CVue – AI Resume Analyzer📄
+# CVue – AI Resume Analyzer 📄
 
+CVue is a Swiss-style, minimalistic AI-powered resume analyzer built using React, Tailwind, and Puter.js. It helps job seekers improve their resumes with instant feedback, ATS scoring, and actionable suggestions – all in a sleek, responsive interface.
 
-## Overview
-CVue is a Swiss-style, minimalistic AI-powered resume analyzer built with React, Vite, Tailwind CSS, and Puter.js. It provides smart feedback, ATS scoring, and actionable tips to help you improve your resume and job applications.
-
----
-
-## Features
-- **Swiss Minimal UI**: Clean, modern, and responsive design for desktop and mobile.
-- **Resume Upload & Preview**: Drag-and-drop PDF upload with instant preview.
-- **AI Feedback**: Get ATS score, detailed feedback, and improvement tips for your resume.
-- **Modular Components**: Accordion, ScoreBadge, ScoreCircle, FileUploader, and more.
-- **Custom SVG Icons**: All icons are Swiss-style, minimal, and consistent.
-- **Puter.js Integration**: Serverless auth, storage, and AI feedback.
-- **Cross-Device Compatibility**: Works seamlessly on desktop and mobile.
+🔗 **Live Demo**: [cvue-resume-analyser.vercel.app](https://cvue-resume-analyser.vercel.app)
 
 ---
 
-## Tech Stack
-- **React 19**
-- **Vite**
-- **Tailwind CSS**
-- **TypeScript**
-- **Puter.js**
-- **React Router v7**
-- **Zustand**
+## 🚀 Features
+
+- 🎨 **Swiss Minimal UI** – Clean, modern, and responsive design for all screen sizes.
+- 📄 **Resume Upload & Preview** – Drag-and-drop PDF upload with instant preview.
+- 🤖 **AI Feedback** – Get ATS compatibility score, insights, and improvement tips.
+- 🧩 **Modular Components** – Built with reusable components like `ScoreBadge`, `Accordion`, `FileUploader`, etc.
+- 🎯 **Custom SVG Icons** – Swiss-style, consistent iconography.
+- ☁️ **Puter.js Integration** – Serverless auth, file storage, and AI resume evaluation.
+- 📱 **Cross-Device Ready** – Works seamlessly on desktop and mobile browsers.
 
 ---
 
-## Getting Started
+## 🛠 Tech Stack
 
-1. **Install dependencies**
+| Technology     | Purpose                             |
+|----------------|-------------------------------------|
+| React 19       | Frontend UI                         |
+| Vite           | Fast bundler and dev server         |
+| Tailwind CSS   | Styling                             |
+| TypeScript     | Type-safe code                      |
+| Puter.js       | Serverless backend & auth           |
+| React Router v7| Routing                             |
+| Zustand        | Lightweight state management        |
+
+---
+
+## 🧪 Getting Started
+
+1. **Clone the repo**
    ```bash
+   git clone https://github.com/your-username/cvue-resume-analyser.git
+   cd cvue-resume-analyser
+2.**Install dependencies**
    npm install
-   ```
-2. **Run the app**
-   ```bash
+3.**Run the app locally**
    npm run dev
-   ```
-3. **Build for production**
-   ```bash
-   npm run build
-   ```
 
----
+## 🧠 Design & UX Philosophy
 
-## Folder Structure
-```
-app/
-  components/
-    Accordion.tsx
-    ATS.tsx
-    Details.tsx
-    FileUploader.tsx
-    Navbar.tsx
-    ResumeCard.tsx
-    ScoreBadge.tsx
-    ScoreCircle.tsx
-    Summary.tsx
-  routes/
-    auth.tsx
-    home.tsx
-    resume.tsx
-    upload.tsx
-    wipe.tsx
-  lib/
-    pdf2img.ts
-    puter.ts
-    utils.ts
-constants/
-  index.ts
-public/
-  icons/
-    [SVG icons]
-  images/
-    [backgrounds, resume previews]
-types/
-  index.d.ts
-  puter.d.ts
-```
+Swiss-style design: neutral backgrounds, grid alignment, and modern typography.
+Minimal UI: light shadows, subtle borders, and focused user interactions.
+Fully responsive: optimized for mobile, tablet, and desktop devices.
 
----
+## 📡 Deployment
 
-## Swiss Style & UX
-- Neutral backgrounds, clean lines, subtle borders, and modern fonts.
-- All icons and UI elements follow Swiss minimalism for clarity and professionalism.
-- Responsive layouts for mobile and desktop.
+Platform: Vercel
+Production URL: https://cvue-resume-analyser.vercel.app
+Auto-deploys on push to the main branch.
 
----
+## ✅ Credits
 
-## Credits
-- Made with ❤️ by Chethan
-- Inspired by JavaScript Mastery tutorials
+Built with ❤️ by Chethan
 
----
+## 📄 License
 
-## License
-MIT
+This project is licensed under the MIT License – you are free to use, modify, and distribute.
